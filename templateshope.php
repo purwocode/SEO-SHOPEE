@@ -11,61 +11,17 @@
 <meta name="og:url" content="https://www.kralmotor.com/home/<?php echo htmlspecialchars($BRAND); ?>.html" />
 <meta name="og:title" content="<?php echo htmlspecialchars($BRAND); ?>™ Agen Terbaik Sepanjang 2024" />
 <meta name="og:type" content="product" />
-<meta name="og:description" content=" Temukan produk dan layanan terbaik dari <?php echo $BRAND; ?>. Kunjungi halaman resmi <?php echo $BRAND; ?> untuk informasi terbaru, penawaran eksklusif, dan lebih banyak lagi. />
+<meta name="og:description" content=" Temukan produk dan layanan terbaik dari <?php echo $BRAND; ?>. Kunjungi halaman resmi <?php echo $BRAND; ?> untuk informasi terbaru, penawaran eksklusif, dan lebih banyak lagi." />
 <meta name="og:image" content="" />
 <link rel="preload" href="https://play-lh.googleusercontent.com/tOKcF1HKCOMLtikgywO5H8BMXUkrQLJpC_keWOe112IJ1ywBwOgep8Cef3dy3_QkA5I=w600-h300-pc0xffffff-pd" as="image" />
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f5f5f5;
-      margin: 0;
-      padding: 20px;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-    .card {
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      overflow: hidden;
-      padding: 15px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-    .product-name {
-      font-weight: bold;
-      font-size: 16px;
-      margin-bottom: 10px;
-    }
-    .price {
-      color: #ee4d2d;
-      font-size: 18px;
-      margin: 5px 0;
-    }
-    .store {
-      font-size: 12px;
-      color: #555;
-    }
-    .sales {
-      font-size: 12px;
-      color: #999;
-    }
-    .btn {
-      margin-top: 10px;
-      text-align: center;
-      background: #ee4d2d;
-      color: white;
-      padding: 10px;
-      border-radius: 5px;
-      text-decoration: none;
-    }
+.btn,header{text-align:center}body{font-family:Arial,sans-serif;margin:0;padding:20px;background-color:#f5f5f5}header{margin-bottom:30px}header img{max-width:100%;height:auto;margin:0 auto;display:block}h1{font-size:24px;margin-top:10px;color:#333}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;padding:0}.card{background:#fff;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.1);overflow:hidden;padding:15px;display:flex;flex-direction:column;justify-content:space-between;transition:transform .3s}.card:hover{transform:scale(1.05)}.product-name{font-weight:700;font-size:16px;margin-bottom:10px;color:#333}.price{color:#ee4d2d;font-size:18px;margin:5px 0}.sales,.store{font-size:12px}.store{color:#555}.sales{color:#999}.btn{margin-top:10px;background:#ee4d2d;color:#fff;padding:10px;border-radius:5px;text-decoration:none;font-weight:700;transition:background-color .3s}.btn:hover{background-color:#e94c28}
   </style>
 </head>
 <body>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Shopee.svg" alt="Deskripsi Gambar" loading="lazy">
+  </header>
 
 <h1><?php echo htmlspecialchars($BRAND); ?></h1>
 <div class="grid">
