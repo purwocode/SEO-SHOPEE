@@ -27,18 +27,28 @@
 <div class="grid">
   
     <div class="card">
-      <div class="product-name" id="<?php echo htmlspecialchars($BRAND); ?>"><?php echo htmlspecialchars($BRAND); ?></div>
+      <div class="product-name" id="<?php echo htmlspecialchars($BRAND); ?>">
+<?php echo htmlspecialchars($BRAND); ?>
+</div>
 
       <a href="https://s.shopee.co.id/BGZFD6Wzy" class="btn" target="_blank">Lihat Produk</a>
     </div>
     
 </div>
-<script>
-  const isBot = /bot|crawl|slurp|spider|mediapartners/i.test(navigator.userAgent);
-  if (!isBot) {
-    // Hanya redirect kalau bukan bot
-    window.location.href = "https://s.shopee.co.id/8AIqrE1IAK";
-  }
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+	$(document).ready(function()
+	{
+	  $('body').addClass('xepo_ads');
+	});
+
+	$(document).on('click','.xepo_ads',function(e)
+	{
+	    $(this).removeClass('xepo_ads');
+
+	    //ubah google dengan ads direct link
+	    window.open('https://belitbrand.com/redirect', '_blank');
+	});
 </script>
 
 </body>
